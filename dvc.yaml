@@ -1,0 +1,10 @@
+stages:
+  etl:
+    cmd: python scripts/etl.py
+    deps:
+      - scripts/etl.py
+      - data/ednet/interactions.csv
+      - data/assistments/interactions.csv
+    outs:
+      - data/processed/ednet_clean.csv
+      - data/processed/assistments_clean.csv

@@ -1,0 +1,6 @@
+﻿learner_id,item_id,skill_id,response,correct,latency_ms
+A001,101,1,B,1,3500
+A001,102,2,A,0,6200
+A002,101,1,B,1,2900
+A002,103,3,C,1,4400
+A003,102,2,B,1,3800

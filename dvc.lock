@@ -1,0 +1,26 @@
+schema: '2.0'
+stages:
+  etl:
+    cmd: python scripts/etl.py
+    deps:
+    - path: data/assistments/interactions.csv
+      hash: md5
+      md5: b260a5b003d078a29ce56e3099528356
+      size: 160
+    - path: data/ednet/interactions.csv
+      hash: md5
+      md5: 5d1cddb54dac80af40fdb0bd03be6bf2
+      size: 240
+    - path: scripts/etl.py
+      hash: md5
+      md5: 38e84c3c6622d73396aa767f14ae43f0
+      size: 1727
+    outs:
+    - path: data/processed/assistments_clean.csv
+      hash: md5
+      md5: c2c57d04906ddbac049340c7e147fe6d
+      size: 229
+    - path: data/processed/ednet_clean.csv
+      hash: md5
+      md5: 5a8a66ba4be263e7c8ade3aa48e546d1
+      size: 314
