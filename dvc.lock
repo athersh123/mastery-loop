@@ -13,8 +13,8 @@ stages:
       size: 240
     - path: scripts/etl.py
       hash: md5
-      md5: 38e84c3c6622d73396aa767f14ae43f0
-      size: 1727
+      md5: 0194ae35b5bfe7e31957e931337daa0c
+      size: 3009
     outs:
     - path: data/processed/assistments_clean.csv
       hash: md5
