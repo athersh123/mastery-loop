@@ -6,3 +6,9 @@ node_modules/
 data/ednet/raw/
 data/assistments/raw/
 .dvc/cache/
+# Python generated files
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
